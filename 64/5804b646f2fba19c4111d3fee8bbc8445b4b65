@@ -1,0 +1,14 @@
+.gitignore
+  h_5e9053ad113c76 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "645804b646f2fba19c4111d3fee8bbc8445b4b65",
+  "prompts": {},
+  "humans": {
+    "h_5e9053ad113c76": {
+      "author": "qlh <qlh2561808384@163.com>"
+    }
+  }
+}
