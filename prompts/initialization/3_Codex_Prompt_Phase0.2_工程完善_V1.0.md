@@ -1,0 +1,31 @@
+# Codex Prompt：AI 文档工程 Phase 0.2（工程完善）V1.0
+
+## 目标
+
+在现有项目基础上完成工程完善，不重新初始化，不生成业务正文。
+
+### 本轮工作
+1. 删除历史 doc/（确认 Prompt 已迁移后）。
+2. 为 prompts/initialization、volume-01、release、archive 增加 README.md。
+3. 将 volume-01 调整为 README.md、01-outline、02-content、03-review、04-release 四级结构，并迁移第一卷章节骨架 Prompt。
+4. 新建 docs/00-project/glossary.md（术语模板）。
+5. 新建 docs/00-project/roadmap.md（Phase 路线图）。
+6. 新建根目录 STATUS.md（当前状态）。
+7. 升级 prompts/prompt-index.md，增加：预计输出文件数、创建人、Review人、最近执行时间、最近更新时间。
+8. 升级 docs/00-project/prompt-history.md，增加：AI工具、AI模型、执行耗时、Review人。
+9. 在 prompts/README.md 增加 Prompt 生命周期：Draft→Testing→Approved→Archived。
+10. 更新 project-context.md，将当前阶段改为 Phase0.2 已完成，下一步为 Phase1 第一卷章节骨架。
+
+## 原则
+- 不修改 docs/01~08 业务内容
+- 不修改模板正文
+- 不生成医学内容
+- 不执行 Git Commit / Push
+
+## 输出
+1. 创建文件
+2. 修改文件
+3. 删除/迁移文件
+4. 新目录树
+5. 风险项
+6. 是否建议冻结工程结构（如完成则回答：建议冻结 Phase0，进入 Phase1 内容生产）。

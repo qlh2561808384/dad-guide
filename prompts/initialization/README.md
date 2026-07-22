@@ -1,0 +1,22 @@
+# 初始化与工程治理 Prompt
+
+## 目录用途
+
+本目录保存项目初始化、治理升级和工程结构完善相关 Prompt。执行这些 Prompt 可能影响根目录或 `docs/00-project/`，执行前必须确认项目当前阶段和修改范围。
+
+## Prompt 清单
+
+| Prompt | 作用 | 当前状态 |
+| --- | --- | --- |
+| [家庭迎新生命操作手册初始化 V2.0](1_Codex_Prompt_家庭迎新生命操作手册初始化_V2.0.md) | 初始化项目工程骨架 | 已执行 |
+| [已有项目增加 AI 文档工程治理 V1.0](2_Codex_Prompt_已有项目增加AI文档工程治理_V1.0.md) | 建立 Prompt 管理、历史、上下文和 ADR | 已执行 |
+| [Phase 0.2 工程完善 V1.0](3_Codex_Prompt_Phase0.2_工程完善_V1.0.md) | 完善工程入口、Prompt 分层和治理元数据 | 已执行，待人工 Review |
+| [Phase 0 最终收尾 Freeze V1.0](4_Codex_Prompt_Phase0_最终收尾_Freeze_V1.0.md) | 建立工程版本、版本化发布目录并冻结 Phase 0 | 已执行，待人工 Review |
+
+## 使用规则
+
+1. 不在已有项目中重复执行初始化 Prompt。
+2. 执行前查阅 `../../STATUS.md` 和 `../../docs/00-project/project-context.md`。
+3. 目标文件存在时先读取并增量合并。
+4. 执行后更新 Prompt 索引、执行历史和项目上下文。
+5. 未经明确授权不执行 Git commit 或 Git push。
