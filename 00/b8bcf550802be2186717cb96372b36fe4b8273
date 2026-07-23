@@ -1,0 +1,118 @@
+prompts/initialization/README.md
+  s_b82c73c096f460::t_a8bb5ed023a0b5 11-14
+docs/00-project/content-production-framework.md
+  s_b82c73c096f460::t_47b1757d37c4ef 1-544,546-924
+  s_b82c73c096f460::t_d02a9fe8e153bd 545
+prompts/archive/superseded/PR-003_第一卷章节骨架_V1.0.md
+  s_b82c73c096f460::t_1c66a900060489 1-5
+prompts/archive/README.md
+  s_b82c73c096f460::t_68f49bca2e1705 18,22-25
+  s_b82c73c096f460::t_479ad230f627dc 27-28
+  s_b82c73c096f460::t_cbcb39a45b67cd 7-14,17,26
+docs/00-project/roadmap.md
+  s_b82c73c096f460::t_2bfcc6947cc8e6 34-42,45-46
+  s_b82c73c096f460::t_f55d5caffff25c 14,43-44,47,53
+prompts/volume-01/README.md
+  s_b82c73c096f460::t_479ad230f627dc 11,18-19,21
+  s_b82c73c096f460::t_a8bb5ed023a0b5 20
+docs/00-project/decision-records/ADR-005-prompt-naming-standard.md
+  s_b82c73c096f460::t_7872148b294430 1-60
+docs/01-late-pregnancy/README.md
+  s_b82c73c096f460::t_7872148b294430 5,7,9-12,16-22,24,26-37
+prompts/initialization/PR-008_Phase0最终收尾_Freeze_V1.0.md
+  s_b82c73c096f460::t_188a5045ed4eca 1-3
+  s_b82c73c096f460::t_aecbf558e2ffe4 181
+prompts/initialization/PR-007_工程完善_V1.0.md
+  s_b82c73c096f460::t_188a5045ed4eca 1-3
+docs/01-late-pregnancy/labor-signs-and-actions.md
+  s_b82c73c096f460::t_7872148b294430 1-21
+docs/00-project/project-context.md
+  s_b82c73c096f460::t_f55d5caffff25c 73,80,99-100,116-117,121,125,183,186
+  s_b82c73c096f460::t_ef8275a6276e24 97,114-115,175-182,184-185
+  s_b82c73c096f460::t_4649edc0f14eb6 11,96,98,113,163-174
+prompts/archive/obsolete/.gitkeep
+  s_b82c73c096f460::t_1c66a900060489 1
+prompts/volume-01/01-outline/PR-010_第一卷章节架构整理与工程清理_V1.1.md
+  s_b82c73c096f460::t_82111c13b7a991 51-464
+  s_b82c73c096f460::t_09f4391dd8c186 48-50
+  s_b82c73c096f460::t_cb8fa60427cd53 465-467
+  s_b82c73c096f460::t_1ce7770c4a7826 1-47,468-581
+docs/01-late-pregnancy/third-trimester-overview.md
+  s_b82c73c096f460::t_7872148b294430 1-21
+AGENTS.md
+  s_b82c73c096f460::t_a8bb5ed023a0b5 360
+prompts/initialization/PR-002_已有项目增加AI文档工程治理_V1.0.md
+  s_b82c73c096f460::t_188a5045ed4eca 1-3
+  s_b82c73c096f460::t_aecbf558e2ffe4 91,94,99-101,118,125,131,288
+docs/01-late-pregnancy/hospital-preparation.md
+  s_b82c73c096f460::t_7872148b294430 1-21
+STATUS.md
+  s_b82c73c096f460::t_ef8275a6276e24 5,7,9,12-14,16,22,26-27,29-30,46,49
+  s_b82c73c096f460::t_f55d5caffff25c 11,15,17-21,24,28,51,65,69
+  s_b82c73c096f460::t_8324ab0a3d363e 25,45,48,50,52
+  s_b82c73c096f460::t_c630c8eab954af 10
+  s_b82c73c096f460::t_2c7419aa755432 23
+prompts/archive/superseded/PR-010_第一卷章节架构整理与工程清理_V1.0.md
+  s_b82c73c096f460::t_d3b1114b906167 1-230
+prompts/initialization/PR-001_家庭迎新生命操作手册初始化_V2.0.md
+  s_b82c73c096f460::t_188a5045ed4eca 1-3
+prompts/archive/draft/PR-009_第一卷章节架构设计_V0.9.md
+  s_b82c73c096f460::t_d3b1114b906167 1-271
+prompts/prompt-index.md
+  s_b82c73c096f460::t_2bffb81e32474b 12-14
+  s_b82c73c096f460::t_db308c05d6b8a9 3,7-9,11,15,20-24,27-31,33-34,36-46,51-52,54-56
+  s_b82c73c096f460::t_d7e0d5a4e89999 17-18,25-26,32,35,53
+  s_b82c73c096f460::t_1717f005041da5 10,16
+  s_b82c73c096f460::t_64d0989306f50e 19
+prompts/README.md
+  s_b82c73c096f460::t_a8bb5ed023a0b5 66-68,73,78-79,81-104,106,117
+  s_b82c73c096f460::t_479ad230f627dc 40-41,46,49,80,111
+  s_b82c73c096f460::t_cbcb39a45b67cd 37-39,44-45,47-48,50-51,53,62-64,115
+docs/01-late-pregnancy/prenatal-checkup-management.md
+  s_b82c73c096f460::t_7872148b294430 1-21
+docs/01-late-pregnancy/family-coordination-plan.md
+  s_b82c73c096f460::t_7872148b294430 1-21
+docs/01-late-pregnancy/father-skills-training.md
+  s_b82c73c096f460::t_7872148b294430 1-21
+docs/00-project/decision-records/ADR-006-prompt-archive-and-status-model.md
+  s_b82c73c096f460::t_0d365bb32add22 1-44,46-47,49-57,59,62-64,66,68,79-92,95-112
+  s_b82c73c096f460::t_2bffb81e32474b 45
+  s_b82c73c096f460::t_e658a6e4b2906d 48,58,60-61,65,67,69-78,93-94
+prompts/volume-01/01-outline/PR-009_第一卷章节架构设计_V1.0.md
+  s_b82c73c096f460::t_d3b1114b906167 1-210
+docs/01-late-pregnancy/hospital-bag.md
+  s_b82c73c096f460::t_7872148b294430 1-21
+docs/00-project/prompt-history.md
+  s_b82c73c096f460::t_68f49bca2e1705 326-332,334-386,389-408
+  s_b82c73c096f460::t_0b0eed57d03603 25,584-669
+  s_b82c73c096f460::t_275f6e2b4199da 23,409-415,417-451,454-483
+  s_b82c73c096f460::t_0866ef16fed488 484-522,525-563,577-583
+  s_b82c73c096f460::t_aecbf558e2ffe4 18-21,34,126,166-167,190,241,263
+  s_b82c73c096f460::t_697ef74b3ca6be 564-576
+  s_b82c73c096f460::t_82111c13b7a991 523-524
+  s_b82c73c096f460::t_c5a741882ca168 22,24,333,387-388,416,452-453
+CHANGELOG.md
+  s_b82c73c096f460::t_592265b2c52cc7 10-24
+  s_b82c73c096f460::t_f55d5caffff25c 9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "00b8bcf550802be2186717cb96372b36fe4b8273",
+  "prompts": {},
+  "humans": {
+    "h_5e9053ad113c76": {
+      "author": "qlh <qlh2561808384@163.com>"
+    }
+  },
+  "sessions": {
+    "s_b82c73c096f460": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f7d70-c6d4-7e42-9e47-75debe5355ae",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "qlh <qlh2561808384@163.com>"
+    }
+  }
+}
