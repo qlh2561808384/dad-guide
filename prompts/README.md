@@ -34,17 +34,23 @@ Prompt 文件不得与生成结果混放。修改 Prompt 不等于修改结果�
 ### 状态生命周期
 
 ```text
-Draft → Testing → Approved → Archived
+Draft → Testing → Approved
+                 ├→ Archived
+                 └→ Deprecated
+
+Reserved（仅占用 PR 编号，无实际 Prompt 文件）
 ```
 
-| 生命周期状态 | 含义 | 对应索引状态 |
-| --- | --- | --- |
-| Draft | Prompt 正在设计，尚未具备执行条件 | 草稿 |
-| Testing | Prompt 正在试运行或等待执行结果 Review | 执行中、已执行 |
-| Approved | Prompt 及其执行结果已通过人工 Review | 已审核 |
-| Archived | Prompt 已被替代或停止使用 | 已废弃 |
+| Status | 含义 |
+| --- | --- |
+| Draft | 已有实际 Prompt 草案文件，正在设计且尚未进入试运行 |
+| Testing | Prompt 正在执行、验证或等待执行结果 Review |
+| Approved | Prompt 当前版本已确认可用 |
+| Reserved | 仅保留 PR 编号，尚无实际 Prompt 文件；该编号不得复用 |
+| Archived | 历史版本已归档，但对应 PR 仍有有效版本 |
+| Deprecated | 对应 PR 已整体停止使用，不再作为任务入口 |
 
-生命周期变化必须同步更新 `prompt-index.md`。归档只改变 Prompt 的使用状态，不删除历史执行记录。
+生命周期变化必须同步更新 `prompt-index.md`。Prompt 生命周期只说明 Prompt 是否可用；执行结果是否通过人工审核，单独记录在 `docs/00-project/prompt-history.md` 的 `Review 状态` 中。
 
 ## Prompt 分类
 
@@ -53,30 +59,59 @@ Draft → Testing → Approved → Archived
 | `initialization/` | 初始化与治理 | 初始化工程、升级治理规则 |
 | `volume-01/` 至 `volume-08/` | 分卷任务 | 设计章节、生成或修订对应分卷内容 |
 | `release/` | 发布任务 | 设计和执行发布流程 |
-| `archive/` | 归档 | 保存已废弃或被替代的 Prompt |
+| `archive/draft/` | 未通过旧稿 | 保存未成为正式执行版本的 Prompt |
+| `archive/superseded/` | 被替代版本 | 保存已被新版本或新 Prompt 取代的 Prompt |
+| `archive/obsolete/` | 停用历史 | 保存不再适用但仍需保留审计价值的 Prompt |
 
-## 命名规范
+## Prompt 命名规范
+
+### 文件命名
 
 统一格式：
 
 ```text
-<工具>_Prompt_<模块>_<用途>_V<版本>.md
+PR-XXXX_<名称>_V<版本>.md
 ```
 
 示例：
 
-- `Codex_Prompt_项目初始化_V2.0.md`
-- `Codex_Prompt_已有项目增加AI文档工程治理_V1.0.md`
-- `Codex_Prompt_第一卷章节骨架_V1.0.md`
+- `PR-001_项目初始化_V2.0.md`
+- `PR-008_Phase0最终收尾_Freeze_V1.0.md`
+- `PR-009_第一卷章节架构设计_V1.0.md`
 
-同一 Prompt 的重大范围变化提升主版本，兼容性调整提升次版本。旧版本不直接覆盖，应迁移至 `archive/` 或保留并标记状态。
+`PR-XXXX` 是 Prompt 的唯一身份标识。文件名不使用工具名称前缀，也不使用独立的 Phase/Milestone 编排前缀；目录负责表达 Prompt 分类。
+
+### 标题规范
+
+Prompt 文档统一使用：
+
+```markdown
+# PR-XXXX：名称
+
+Version：Vx.x
+```
+
+标题不包含文件扩展名，版本号单独登记在标题下一行。
+
+### Prompt Index 单一数据源
+
+`prompt-index.md` 是 Prompt 项目管理信息的唯一数据源（Single Source of Truth）。以下字段只在索引中维护，不写入文件名：
+
+- Phase
+- Milestone
+- Volume
+- Stage
+- 文件路径
+
+同一 Prompt 的重大范围变化提升主版本，兼容性调整提升次版本。旧版本不直接覆盖，应迁移至 `archive/` 并在索引中标记状态。
 
 ## 维护规则
 
 1. 执行前先在 `prompt-index.md` 登记用途、输入、输出、依赖和状态。
-2. 执行期间将状态标记为“执行中”，完成后改为“已执行”，人工确认后改为“已审核”。
+2. 已创建实际草案文件时使用 `Draft`；仅占用编号、尚无实际文件时使用 `Reserved`；执行和结果 Review 期间使用 `Testing`，确认可用后使用 `Approved`。
 3. 每次执行后更新 `docs/00-project/prompt-history.md`，记录具体文件路径。
 4. 阶段切换或重大任务完成后更新 `docs/00-project/project-context.md`。
 5. 不覆盖同名 Prompt；同名文件先比较内容，无法确认时保留原文件并报告。
-6. 废弃 Prompt 不直接删除，迁移到 `archive/` 并在索引中标记“已废弃”。
+6. 历史 Prompt 不直接删除，按原因迁移到 `archive/draft/`、`archive/superseded/` 或 `archive/obsolete/`，并更新索引状态。
 7. Prompt 只修改任务授权范围内的文件，不重新初始化既有项目。
+8. 修改 Prompt 身份、命名格式或索引职责前必须新增 ADR 并取得用户明确授权。

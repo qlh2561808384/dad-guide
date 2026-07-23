@@ -1,4 +1,6 @@
-# Codex Prompt：Phase 0 最终收尾（Freeze）V1.0
+# PR-008：Phase 0 最终收尾（Freeze）
+
+Version：V1.0
 
 ## 任务定位
 
@@ -176,7 +178,7 @@ Milestone 8：
 
 PR-008
 
-Codex_Prompt_Phase0_最终收尾_Freeze_V1.0.md
+PR-008_Phase0最终收尾_Freeze_V1.0.md
 
 状态：
 

@@ -6,7 +6,22 @@
 
 ### Planned
 
-- 进入 Phase 1，设计第一卷《孕晚期准备（32周～生产）》章节骨架。
+- 设计 PR-011 第一卷正文生成规范，并建立正文来源核验方案。
+
+## [v0.1.1-engineering] - 2026-07-22
+
+### Added
+
+- 新增 ADR-005，记录冻结后的 Prompt 命名治理升级。
+- 启动 Phase 1，并创建第一卷七个章节空模板及模块导航。
+
+### Changed
+
+- 统一 Prompt 命名规范为 `PR-XXXX_<名称>_V<版本>.md`。
+- 去除 Prompt 文件的工具名称前缀。
+- 去除文件名中的独立 Phase/Milestone 编排前缀。
+- 将 PR 编号确立为 Prompt 唯一身份标识。
+- 将 Phase、Milestone、Volume、Stage 和文件路径集中到 Prompt Index 维护。
 
 ## [v2.0.0] - 规划中
 

@@ -357,7 +357,7 @@ fix: repair broken chapter navigation
 ## 2026-07-22
 
 ### Prompt
-Codex_Prompt_家庭迎新生命操作手册初始化_V2.0.md
+PR-001_家庭迎新生命操作手册初始化_V2.0.md
 
 ### Agent
 Codex

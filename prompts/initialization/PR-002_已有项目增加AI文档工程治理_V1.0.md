@@ -1,4 +1,6 @@
-# Codex Prompt：已有项目增加 AI 文档工程治理 V1.0
+# PR-002：已有项目增加 AI 文档工程治理
+
+Version：V1.0
 
 ## 项目背景
 
@@ -86,17 +88,17 @@ Prompt 生命周期：
 → 更新 project-context.md
 ```
 
-命名规范：
+命名规范以 `prompts/README.md` 和 ADR-005 为准：
 
 ```text
-<工具>_Prompt_<模块>_<用途>_V<版本>.md
+PR-XXXX_<名称>_V<版本>.md
 ```
 
 示例：
 
-- Codex_Prompt_项目初始化_V2.0.md
-- Codex_Prompt_已有项目增加AI文档工程治理_V1.0.md
-- Codex_Prompt_第一卷章节骨架_V1.0.md
+- PR-001_项目初始化_V2.0.md
+- PR-002_已有项目增加AI文档工程治理_V1.0.md
+- PR-003_第一卷章节骨架_V1.0.md
 
 ## 三、创建 prompts/prompt-index.md
 
@@ -113,20 +115,20 @@ Prompt 生命周期：
 
 ### PR-001
 
-- Prompt：Codex_Prompt_家庭迎新生命操作手册初始化_V2.0.md
+- Prompt：PR-001_家庭迎新生命操作手册初始化_V2.0.md
 - 作用：初始化项目工程骨架
 - 输出：README.md、docs/、templates/、assets/、release/
 - 状态：已执行
 
 ### PR-002
 
-- Prompt：Codex_Prompt_已有项目增加AI文档工程治理_V1.0.md
+- Prompt：PR-002_已有项目增加AI文档工程治理_V1.0.md
 - 作用：增加 Prompt 管理、执行历史、项目上下文和 ADR
 - 状态：本次执行
 
 ### PR-003
 
-- Prompt：Codex_Prompt_第一卷章节骨架_V1.0.md
+- Prompt：PR-003_第一卷章节骨架_V1.0.md
 - 作用：设计第一卷《孕晚期准备（32周～生产）》章节骨架
 - 状态：待执行
 
@@ -283,7 +285,7 @@ ADR-004 必须说明：
 如果找到：
 
 ```text
-Codex_Prompt_家庭迎新生命操作手册初始化_V2.0.md
+PR-001_家庭迎新生命操作手册初始化_V2.0.md
 ```
 
 移动到：
