@@ -1,0 +1,40 @@
+.gitignore
+  h_5e9053ad113c76 3
+STATUS.md
+  s_b82c73c096f460::t_12379e0022d847 15,23,27,31,53,57,71,75
+  s_b82c73c096f460::t_e074b6bd79bce7 3,11,21-22,55-56
+docs/01-late-pregnancy/prenatal-checkup-management.md
+  s_b82c73c096f460::t_0d0e4844de9da8 28-29,293,382
+  s_b82c73c096f460::t_116597d3ecbc78 3-10,13-27,30-47,50-61,64-156,159-238,241-249,252-281,284-292,294-301,304-321,324-381
+docs/00-project/prompt-history.md
+  s_b82c73c096f460::t_e074b6bd79bce7 26,672-789
+  s_b82c73c096f460::t_12379e0022d847 27,790-904
+prompts/prompt-index.md
+  s_b82c73c096f460::t_e074b6bd79bce7 20
+  s_b82c73c096f460::t_12379e0022d847 21
+docs/01-late-pregnancy/third-trimester-overview.md
+  s_b82c73c096f460::t_263a6af30b88b1 3-10,13-49,52-61,64-93,95-123,126-145,148-154,157-172,174-182,185-201,204-217,220,222,225-235,237-245,247-262
+  s_b82c73c096f460::t_e5ab47a7dbe5aa 94,173
+  s_b82c73c096f460::t_123512a79b5ac6 221,223-224,236,246
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "32c77d903843601fda3c63c5cd66a48e14d4e973",
+  "prompts": {},
+  "humans": {
+    "h_5e9053ad113c76": {
+      "author": "qlh <qlh2561808384@163.com>"
+    }
+  },
+  "sessions": {
+    "s_b82c73c096f460": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f7d70-c6d4-7e42-9e47-75debe5355ae",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "qlh <qlh2561808384@163.com>"
+    }
+  }
+}
